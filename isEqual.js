@@ -33,8 +33,8 @@ const obj1 = {
   name: 'jiyt',
   age: 20,
   address: {
-    city: 'nantong',
-    area: 'chongchuan'
+    city: 'nanjing',
+    area: 'qixia'
   },
   fav: ['music', 'book']
 }
@@ -43,8 +43,8 @@ const obj2 = {
   name: 'jiyt',
   age: 20,
   address: {
-    city: 'nantong',
-    area: 'chongchuan'
+    city: 'nanjing',
+    area: 'qixia'
   },
   fav: ['music', 'book']
 }

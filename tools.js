@@ -1,8 +1,8 @@
 // 防抖
 function debounce(fn, delay) {
-  var timer = null
-  var _this = this
-  var args = arguments
+  let timer = null
+  const _this = this
+  const args = arguments
   return function() {
     if(timer) {
       clearTimeout(timer)
@@ -16,9 +16,9 @@ function debounce(fn, delay) {
 
 // 节流
 function throttle(fn, delay) {
-  var timer = null
-  var _this = this
-  var args = arguments
+  let timer = null
+  const _this = this
+  const args = arguments
   return function() {
     if(timer) {
       return
@@ -29,8 +29,3 @@ function throttle(fn, delay) {
     }, delay)
   }
 }
-
-var inputBox = document.getElementById('text')
-inputBox.addEventListener('input', debounce(function() {
-  console.log(inputBox.value)
-}, 400))
